@@ -1,0 +1,40 @@
+{
+    "name": "oro-flex/gaufrette-bundle",
+    "description": "OroGaufretteBundle is a facade for [KnpGaufretteBundle](https://github.com/KnpLabs/KnpGaufretteBundle) that enables a filesystem abstraction layer in the Oro applications and provides a simplified file manager service for media files.",
+    "homepage": "https://github.com/oroinc/platform/tree/master/src/Oro/Bundle/GaufretteBundle",
+    "license": "MIT",
+    "authors": [
+	    {
+            "name": "Nikita Makarov",
+            "email": "mesaverde228@gmail.com"
+        },
+        {
+            "name": "Oro, Inc",
+            "homepage": "https://oroinc.com/"
+        }
+    ],
+    "require": {
+        "php": "~7.4.14 || ~8.0.0"
+    },
+    "require-dev": {
+    },
+    "conflict": {
+        "oro/platform": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "symfony": {
+            "require": "5.4.*"
+        },
+        "branch-alias": {
+            "dev-master": "5.0-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Oro\\Bundle\\GaufretteBundle\\": ""
+        },
+        "exclude-from-classmap": ["/Tests/"]
+    }
+}
