@@ -14,7 +14,9 @@
         }
     ],
     "require": {
-        "php": "~7.4.14 || ~8.0.0"
+        "php": "~7.4.14 || ~8.0.0",
+        "knplabs/knp-gaufrette-bundle": "~0.7.1",
+        "symfony/expression-language": "*"
     },
     "require-dev": {
     },
@@ -25,10 +27,10 @@
     "prefer-stable": true,
     "extra": {
         "symfony": {
-            "require": "5.4.*"
+            "require": "4.4.*"
         },
         "branch-alias": {
-            "dev-master": "5.0-dev"
+            "dev-master": "4.2-dev"
         }
     },
     "autoload": {
